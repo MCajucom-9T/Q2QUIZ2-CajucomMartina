@@ -1,0 +1,114 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	color: black;
+	background-image: url(bg.jpg);
+	background-size: cover;
+	padding: 0;
+	padding-top: 60px;
+}
+
+.navbar {
+	width: 100%;
+	z-index: 1000;
+}
+
+.container {
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+
+.row {
+	padding: 5px;
+	text-align: center;
+}
+
+h1 {
+	padding: 3px;
+	text-align: center;
+	font-family: "Audiowide", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.content {
+	box-shadow: 4px 4px 2px rgba(14, 67, 67, 0.6);
+	font-family: "Chakra Petch", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	background-color: rgba(89, 195, 195, 0.8);
+	padding: 10px;
+	border-radius: 20px;
+	text-align: center;
+}
+
+.about {
+	box-shadow: 4px 4px 2px rgba(14, 67, 67, 0.6);
+	font-family: "Chakra Petch", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	background-color: #1F7A8C;
+	padding: 10px;
+	border-radius: 20px;
+	text-align: left;
+}
+
+#registration {
+	box-shadow: 4px 4px 2px rgba(14, 67, 67, 0.6);
+	font-family: "Silkscreen", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	background-color: rgba(89, 195, 195, 0.8);
+	padding: 10px;
+	border-radius: 20px;
+	text-align: left;
+}
+
+#contact {
+	box-shadow: 4px 4px 2px rgba(14, 67, 67, 0.6);
+	font-family: "Silkscreen", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	background-color: rgba(89, 195, 195, 0.8);
+	padding: 10px;
+	border-radius: 20px;
+	text-align: center;
+	margin: auto;
+}
+
+.nav-link {
+	font-family: "Audiowide", sans-serif;
+	color: black;
+	font-weight: 400;
+	font-style: normal;
+}
+.nav-link:hover {
+	color: cyan;
+}
+
+a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: inherit;
+}
+
+a:hover {
+    color: cyan;
+}
+
+footer {
+	text-align: center;
+	background-color: #002A32;
+	padding: 15px;
+	margin-top: 10px;
+	color: white;
+	font-family: "Audiowide", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
